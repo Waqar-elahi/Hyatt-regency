@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="image/Untitled Projec - Sky Drive Solution.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyatt Regency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.luxuryhaven.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+    <!-- Header with Hotel Branding -->
+    <header>
+      <img src="image/Untitled Projec - Sky Drive Solution.png" alt="Luxury Haven Hotel Logo" class="logo" />
+      <h1 class="hotel-name">HOTELS WORLDWIDE</h1>
+      <p class="tagline">Your Escape to Elegance and Comfort</p>
+    </header>
+    
+       <!-- Loader Container (placed at the top of body) -->
+  <div class="loader-container" id="loader">
+    <span class="loader"></span>
+  </div>
+  
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Hyatt Regency</a>
+
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#amenities">Amenities</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#dining"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              Blog & News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#Packages">package-card</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Restaurants">Bars & foods</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Photos-Virtual">Photos & Virtual</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Events & Meetings">Events & Meetings</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Testimonials">Testimonials</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Blog & News">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#booking">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Policies & Terms">Policies & Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <video autoplay muted loop>
+        <source src="image/video/hotal-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay">
+        <h1>Welcome to Hyatt Regency</h1>
+      </div>
+    </section>
+
+    <!-- Room Types and Rates Section -->
+    <section class="room-types" id="rooms">
+      <h2>Room Types and Rates</h2>
+      <div class="room-card">
+        <img src="image/single-room.jpeg" alt="Single Room" />
+        <h3>Single Room</h3>
+        <p>
+          Perfect for solo travelers. Enjoy a cozy space with a comfortable
+          single bed.
+        </p>
+        <p class="rate">$150/night</p>
+        <ul class="features">
+          <li>200 sq. ft.</li>
+          <li>1 Single Bed</li>
+          <li>City View</li>
+          <li>Free Wi-Fi</li>
+          <li>Air Conditioning</li>
+        </ul>
+      </div>
+      <div class="room-card">
+        <img src="image/double-Room.jpeg" alt="Double Room" />
+        <h3>Double Room</h3>
+        <p>
+          Ideal for couples. Features a spacious double bed and a private
+          balcony.
+        </p>
+        <p class="rate">$200/night</p>
+        <ul class="features">
+          <li>300 sq. ft.</li>
+          <li>1 Double Bed</li>
+          <li>Ocean View</li>
+          <li>Free Wi-Fi</li>
+          <li>Mini-Bar</li>
+        </ul>
+      </div>
+      <div class="room-card">
+        <img src="image/Room-card.jpeg" alt="Suite" />
+        <h3>Suite</h3>
+        <p>
+          Luxury at its finest. Includes a separate living area and a king-sized
+          bed.
+        </p>
+        <p class="rate">$350/night</p>
+        <ul class="features">
+          <li>500 sq. ft.</li>
+          <li>1 King Bed</li>
+          <li>Panoramic View</li>
+          <li>Free Wi-Fi</li>
+          <li>Room Service</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Seasonal Offers Section -->
+    <section class="seasonal-offers">
+      <h3>Seasonal Offers</h3>
+      <p>
+        Book a stay of 3 nights or more and get 20% off! Offer valid until
+        December 31, 2023.
+      </p>
+    </section>
+
+   <!-- Booking Engine Section -->
+<section class="booking-engine" id="booking">
+  <h2>Book Your Stay</h2>
+  <div class="booking-form">
+    <form id="mainBookingForm" action="#" method="post">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="check-in">Check-In Date</label>
+          <input type="date" id="check-in" name="check-in" required />
+        </div>
+        <div class="form-group">
+          <label for="check-out">Check-Out Date</label>
+          <input type="date" id="check-out" name="check-out" required />
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label for="room-type">Room Type</label>
+          <select id="room-type" name="room-type" required>
+            <option value="">Select Room Type</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+            <option value="honeymoon">Honeymoon Suite</option>
+            <option value="family">Family Room</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="guests">Number of Guests</label>
+          <input type="number" id="guests" name="guests" min="1" max="6" required />
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="special-package">Special Package (Optional)</label>
+        <select id="special-package" name="special-package">
+          <option value="">None</option>
+          <option value="honeymoon">Honeymoon Package</option>
+          <option value="family">Family Vacation Package</option>
+          <option value="spa">Spa Weekend Package</option>
+        </select>
+      </div>
+
+      <button type="submit" class="book-now-btn">Check Availability & Book</button>
+    </form>
+  </div>
+</section>
+
+<!-- Special Offers and Packages Section -->
+<section class="special-offers" id="Packages">
+  <h2>Special Offers & Packages</h2>
+  <div class="packages-container">
+    <div class="package-card" data-package="honeymoon">
+      <img src="image/Honeymoon.jpeg" alt="Honeymoon Package" />
+      <div class="package-content">
+        <h3>Honeymoon Package</h3>
+        <p>Celebrate your love with a romantic getaway. Includes champagne, spa access, and a private dinner.</p>
+        <div class="package-footer">
+          <p class="rate">$500/night</p>
+          <button class="package-book-btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="package-card" data-package="family">
+      <img src="image/Family Vacation Package.jpeg" alt="Family Vacation Package" />
+      <div class="package-content">
+        <h3>Family Vacation Package</h3>
+        <p>Perfect for families. Includes connecting rooms, free breakfast, and kids' activities.</p>
+        <div class="package-footer">
+          <p class="rate">$600/night</p>
+          <button class="package-book-btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="package-card" data-package="spa">
+      <img src="image/Spa Weekend Package.jpeg" alt="Spa Weekend Package" />
+      <div class="package-content">
+        <h3>Spa Weekend Package</h3>
+        <p>Relax and rejuvenate with a spa weekend. Includes massages, facials, and wellness meals.</p>
+        <div class="package-footer">
+          <p class="rate">$450/night</p>
+          <button class="package-book-btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Booking Modal -->
+<div class="booking-modal" id="bookingModal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h3>Complete Your Booking</h3>
+    <form id="modalBookingForm">
+      <div id="package-summary"></div>
+      
+      <div class="form-group">
+        <label for="modal-check-in">Check-In Date</label>
+        <input type="date" id="modal-check-in" name="check-in" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="modal-check-out">Check-Out Date</label>
+        <input type="date" id="modal-check-out" name="check-out" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="modal-guests">Number of Guests</label>
+        <input type="number" id="modal-guests" name="guests" min="1" max="6" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="special-requests">Special Requests</label>
+        <textarea id="special-requests" name="special-requests" rows="3"></textarea>
+      </div>
+      
+      <button type="submit" class="confirm-booking-btn">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- Price Comparison Section -->
+    <section class="price-comparison">
+      <h2>Price Comparison</h2>
+      <div class="comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Single Room</th>
+              <th>Double Room</th>
+              <th>Suite</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Our Website</td>
+              <td class="direct-booking">$150</td>
+              <td class="direct-booking">$200</td>
+              <td class="direct-booking">$350</td>
+            </tr>
+            <tr>
+              <td>Booking.com</td>
+              <td>$170</td>
+              <td>$220</td>
+              <td>$370</td>
+            </tr>
+            <tr>
+              <td>Expedia</td>
+              <td>$160</td>
+              <td>$210</td>
+              <td>$360</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+   <!-- Amenities and Services Section -->
+<section class="amenities-services" id="amenities">
+  <h2>Amenities and Services</h2>
+  
+  <div class="amenities-container">
+    <!-- On-Site Facilities -->
+    <div class="amenities-category">
+      <h3>On-Site Facilities</h3>
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="image/Swimming Pool 1.jpeg" alt="Swimming Pool">
+          </div>
+          <div class="card-content">
+            <h4>Swimming Pool</h4>
+            <p class="hover-content">Our heated outdoor pool is open year-round with stunning views of the city skyline.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fitness Center">
+          </div>
+          <div class="card-content">
+            <h4>Fitness Center</h4>
+            <p class="hover-content">24/7 access to state-of-the-art equipment with personal trainers available upon request.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Spa & Wellness Center">
+          </div>
+          <div class="card-content">
+            <h4>Spa & Wellness Center</h4>
+            <p class="hover-content">Indulge in our award-winning spa treatments and massage therapies.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fine Dining Restaurant">
+          </div>
+          <div class="card-content">
+            <h4>Fine Dining Restaurant</h4>
+            <p class="hover-content">Michelin-starred chef preparing gourmet cuisine with locally-sourced ingredients.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bar & Lounge">
+          </div>
+          <div class="card-content">
+            <h4>Bar & Lounge</h4>
+            <p class="hover-content">Signature cocktails and premium spirits in our sophisticated lounge atmosphere.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Business Center">
+          </div>
+          <div class="card-content">
+            <h4>Business Center</h4>
+            <p class="hover-content">Fully equipped with meeting rooms, printers, and high-speed internet access.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Additional Services -->
+    <div class="amenities-category">
+      <h3>Additional Services</h3>
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Concierge Service">
+          </div>
+          <div class="card-content">
+            <h4>24/7 Concierge Service</h4>
+            <p class="hover-content">Our concierge team can arrange tours, tickets, and personalized recommendations.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Airport Shuttle">
+          </div>
+          <div class="card-content">
+            <h4>Airport Shuttle</h4>
+            <p class="hover-content">Complimentary shuttle service to and from the airport (reservation required).</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Valet Parking">
+          </div>
+          <div class="card-content">
+            <h4>Valet Parking</h4>
+            <p class="hover-content">24-hour valet service with secure underground parking facilities.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Room Service">
+          </div>
+          <div class="card-content">
+            <h4>Room Service</h4>
+            <p class="hover-content">24-hour room service with an extensive menu available at your convenience.</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="image/Laundry & Dry Cleaning.jpeg" alt="Laundry Service">
+          </div>
+          <div class="card-content">
+            <h4>Laundry & Dry Cleaning</h4>
+            <p class="hover-content">Same-day laundry and dry cleaning services available (additional charge).</p>
+          </div>
+        </div>
+        
+        <div class="amenity-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Event Hosting">
+          </div>
+          <div class="card-content">
+            <h4>Event Hosting</h4>
+            <p class="hover-content">Professional event planning for meetings, weddings, and special occasions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pet Policy -->
+    <div class="pet-policy">
+      <h3>Pet Policy</h3>
+      <div class="amenity-card pet-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Pet Friendly">
+        </div>
+        <div class="card-content">
+          <h4>Pet Friendly Hotel</h4>
+          <p>We welcome your furry friends! Additional charges may apply.</p>
+          <ul class="hover-content">
+            <li>Pet Fee: $50 per stay</li>
+            <li>Maximum of 2 pets per room</li>
+            <li>Pets must be leashed in public areas</li>
+            <li>Designated pet relief area available</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Dining and Food Options Section -->
+    <section class="dining-food-options" id="Restaurants">
+      <h2>Dining and Food Options</h2>
+
+      <!-- Restaurants and Bars -->
+      <h3>Restaurants and Bars</h3>
+      <div class="restaurant-card">
+        <img src="image/gallery-2.jpeg" alt="Fine Dining Restaurant" />
+        <h4>Fine Dining Restaurant</h4>
+        <p>
+          Experience gourmet cuisine in an elegant setting. Open daily from 6:00
+          PM to 10:00 PM.
+        </p>
+        <a href="fine-dining-menu.pdf" target="_blank">View Menu</a>
+      </div>
+      <div class="restaurant-card">
+        <img src="image/Lounge Bar.jpeg" alt="Lounge Bar" />
+        <h4>Lounge Bar</h4>
+        <p>
+          Relax with a cocktail or a glass of wine. Open daily from 4:00 PM to
+          12:00 AM.
+        </p>
+        <a href="lounge-bar-menu.pdf" target="_blank">View Menu</a>
+      </div>
+
+      <!-- Room Service -->
+      <div class="room-service">
+        <h3>Room Service</h3>
+        <p>
+          Enjoy delicious meals in the comfort of your room. Our 24/7 room
+          service offers a wide variety of dishes.
+        </p>
+        <a href="room-service-menu.pdf" target="_blank"
+          >View Room Service Menu</a
+        >
+      </div>
+
+      <!-- Special Dining Events -->
+      <div class="special-dining-events">
+        <h3>Special Dining Events</h3>
+        <p>Join us for unique dining experiences:</p>
+        <ul>
+          <li>Wine Tasting Night - Every Friday at 7:00 PM</li>
+          <li>Themed Dinner Nights - Check our calendar for upcoming events</li>
+          <li>
+            Seasonal Food Festivals - Celebrate local flavors with our seasonal
+            menus
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hotel Location Section -->
+    <section class="hotel-location" id="location">
+      <h2>Hotel Location</h2>
+
+      <!-- Map and Directions -->
+      <h3>Map and Directions</h3>
+      <p>123 Luxury Avenue, Paradise City, PC 12345</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6a32f7c787!2sLuxury%20Haven%20Hotel!5e0!3m2!1sen!2sus!4v1622549400000!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+      <p><strong>Directions:</strong></p>
+      <ul>
+        <li>
+          <strong>By Car:</strong> Take the Paradise City exit on Highway 1 and
+          follow signs to Luxury Avenue.
+        </li>
+        <li>
+          <strong>By Taxi:</strong> Inform the driver to head to 123 Luxury
+          Avenue, Paradise City.
+        </li>
+        <li>
+          <strong>By Public Transport:</strong> Take the Metro Line 5 to
+          Paradise Central Station, then a 10-minute walk to the hotel.
+        </li>
+      </ul>
+
+      <!-- Nearby Attractions -->
+      <div class="nearby-attractions">
+        <h3>Nearby Attractions</h3>
+        <ul>
+          <li>Paradise Beach - 5 minutes away</li>
+          <li>City Museum - 10 minutes away</li>
+          <li>Sunset Shopping Mall - 15 minutes away</li>
+          <li>Grand Theater - 20 minutes away</li>
+        </ul>
+      </div>
+
+      <!-- Area Guide -->
+      <div class="area-guide">
+        <h3>Area Guide</h3>
+        <p>Explore the best of Paradise City with our recommendations:</p>
+        <ul>
+          <li>
+            <strong>Restaurants:</strong> Try "Ocean Breeze" for seafood or
+            "Golden Wok" for Asian cuisine.
+          </li>
+          <li>
+            <strong>Activities:</strong> Visit the Paradise Botanical Gardens or
+            take a sunset cruise.
+          </li>
+          <li>
+            <strong>Cultural Experiences:</strong> Attend a live performance at
+            the Grand Theater or explore local art galleries.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Photos and Virtual Tours Section -->
+    <section class="photos-tours" id="Photos-Virtual">
+      <h2>Photos and Virtual Tours</h2>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <img src="image/Hotel Lobby.jpeg" alt="Hotel Lobby" />
+        <img src="image/Swimming Pool.jpeg" alt="Swimming Pool" />
+        <img src="image/gallery-2.jpeg" alt="Restaurant" />
+        <img src="image/Spa.jpeg" alt="Spa" />
+        <img src="image/Room-1.jpeg" alt="Room 1" />
+        <img src="image/Room-2.jpeg" alt="Room 2" />
+        <img src="image/Outdoor Garden.jpeg" alt="Outdoor Garden" />
+        <img src="image/Lounge Bar2.jpeg" alt="Bar" />
+      </div>
+
+      <!-- User-Generated Photos -->
+      <div class="user-generated-photos">
+        <h3>Guest Photos</h3>
+        <div class="gallery">
+          <img src="image/Guest Photo-1.jpg" alt="Guest Photo 1" />
+          <img src="image/Guest Photo-2.jpg" alt="Guest Photo 2" />
+          <img src="image/Guest Photo-3.jpg" alt="Guest Photo 3" />
+          <img src="image/Guest Photo-4.jpg" alt="Guest Photo 4" />
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <h2 class="section-title">Guest Reviews and Testimonials</h2>
+
+        <!-- Rating Summary -->
+        <div class="rating-summary">
+          <div class="average-rating">4.8</div>
+          <div class="star-rating">★★★★★</div>
+          <div class="total-reviews">Based on 1,284 guest reviews</div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials-container" id="Testimonials">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="guest-info">
+              <img
+                src="image/Sarah Johnson.jpeg"
+                alt="Guest"
+                class="guest-avatar"
+              />
+              <div>
+                <div class="guest-name">Sarah Johnson</div>
+                <div class="guest-location">New York, USA</div>
+              </div>
+            </div>
+            <div class="testimonial-text">
+              "Absolutely loved our stay at Luxury Haven! The service was
+              impeccable, and our suite had the most breathtaking ocean view.
+              We'll definitely be back!"
+            </div>
+            <div class="testimonial-rating">★★★★★</div>
+            <div class="testimonial-date">March 15, 2023</div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="guest-info">
+              <img
+                src="image/Michael Chen.jpeg"
+                alt="Guest"
+                class="guest-avatar"
+              />
+              <div>
+                <div class="guest-name">Michael Chen</div>
+                <div class="guest-location">Toronto, Canada</div>
+              </div>
+            </div>
+            <div class="testimonial-text">
+              "The spa treatments were heavenly, and the staff went above and
+              beyond to make our anniversary special. The attention to detail is
+              what sets this hotel apart."
+            </div>
+            <div class="testimonial-rating">★★★★★</div>
+            <div class="testimonial-date">February 28, 2023</div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="guest-info">
+              <img
+                src="image/Emma Rodriguez.jpeg"
+                alt="Guest"
+                class="guest-avatar"
+              />
+              <div>
+                <div class="guest-name">Emma Rodriguez</div>
+                <div class="guest-location">London, UK</div>
+              </div>
+            </div>
+            <div class="testimonial-text">
+              "From the moment we arrived, we felt pampered. The concierge's
+              restaurant recommendations were perfect, and the beds are the most
+              comfortable I've ever slept in."
+            </div>
+            <div class="testimonial-rating">★★★★☆</div>
+            <div class="testimonial-date">January 12, 2023</div>
+          </div>
+        </div>
+
+        <!-- Review Sources -->
+        <div class="review-sources">
+          <h3>Our Reviews on Other Platforms</h3>
+          <div class="source-badges">
+            <div class="source-badge">
+              <img src="image/TripAdvisor.jpeg" alt="TripAdvisor" />
+              <div>
+                <div class="source-rating">4.7/5</div>
+                <div>1,024 reviews</div>
+              </div>
+            </div>
+            <div class="source-badge">
+              <img src="image/Google.jpeg" alt="Google" />
+              <div>
+                <div class="source-rating">4.8/5</div>
+                <div>892 reviews</div>
+              </div>
+            </div>
+            <div class="source-badge">
+              <img src="image/booking.jpeg" alt="Booking.com" />
+              <div>
+                <div class="source-rating">9.2/10</div>
+                <div>756 reviews</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events-section" id="Events & Meetings">
+      <div class="container">
+        <h2 class="section-title">Events & Meetings</h2>
+
+        <!-- Event Hosting -->
+        <div class="event-spaces">
+          <div class="space-cards">
+            <!-- Space 1 -->
+            <div class="space-card">
+              <img
+                src="image/Grand Ballroom.jpeg"
+                alt="Grand Ballroom"
+                class="space-image"
+              />
+              <div class="space-details">
+                <h4 class="space-name">Grand Ballroom</h4>
+                <div class="space-capacity">
+                  <span>Capacity: Up to 500 guests</span>
+                </div>
+                <div class="space-features">
+                  <ul class="feature-list">
+                    <li>5,000 sq. ft. of flexible space</li>
+                    <li>Built-in stage and AV system</li>
+                    <li>Dividable into 3 sections</li>
+                    <li>Natural daylight available</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Space 2 -->
+            <div class="space-card">
+              <img
+                src="image/Executive Boardroom.jpeg"
+                alt="Executive Boardroom"
+                class="space-image"
+              />
+              <div class="space-details">
+                <h4 class="space-name">Executive Boardroom</h4>
+                <div class="space-capacity">
+                  <span>Capacity: Up to 24 guests</span>
+                </div>
+                <div class="space-features">
+                  <ul class="feature-list">
+                    <li>Premium leather seating</li>
+                    <li>State-of-the-art video conferencing</li>
+                    <li>Built-in presentation screen</li>
+                    <li>Executive catering available</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Space 3 -->
+            <div class="space-card">
+              <img
+                src="image/Garden Terrace.jpeg"
+                alt="Garden Terrace"
+                class="space-image"
+              />
+              <div class="space-details">
+                <h4 class="space-name">Garden Terrace</h4>
+                <div class="space-capacity">
+                  <span>Capacity: Up to 150 guests</span>
+                </div>
+                <div class="space-features">
+                  <ul class="feature-list">
+                    <li>Outdoor venue with city views</li>
+                    <li>Perfect for weddings and receptions</li>
+                    <li>Weather contingency plan available</li>
+                    <li>Adjacent to indoor reception area</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RFP Form -->
+        <div class="rfp-section">
+          <h3>Plan Your Event With Us</h3>
+          <form class="rfp-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="company">Company/Organization</label>
+              <input type="text" id="company" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="event-type">Event Type</label>
+              <select id="event-type" required>
+                <option value="">Select event type</option>
+                <option value="wedding">Wedding</option>
+                <option value="conference">Conference</option>
+                <option value="meeting">Business Meeting</option>
+                <option value="gala">Gala Dinner</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="attendees">Expected Attendees</label>
+              <input type="number" id="attendees" min="1" required />
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" required />
+            </div>
+            <div class="form-group">
+              <label for="space">Preferred Space</label>
+              <select id="space">
+                <option value="">Not sure</option>
+                <option value="ballroom">Grand Ballroom</option>
+                <option value="boardroom">Executive Boardroom</option>
+                <option value="terrace">Garden Terrace</option>
+                <option value="multiple">Multiple Spaces</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="details">Event Details</label>
+              <textarea
+                id="details"
+                placeholder="Tell us about your event needs, special requirements, etc."
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section" id="Blog & News">
+      <div class="container">
+        <h2 class="section-title">Blog & News</h2>
+
+        <div class="blog-categories">
+          <button class="category-btn active">All</button>
+          <button class="category-btn">Hotel News</button>
+          <button class="category-btn">Travel Tips</button>
+          <button class="category-btn">Local Guide</button>
+          <button class="category-btn">Special Offers</button>
+        </div>
+
+        <div class="blog-posts">
+          <!-- Hotel News Post -->
+          <div class="blog-card">
+            <img
+              src="image/Hotel Renovation.jpeg"
+              alt="Hotel Renovation"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <span class="blog-category">Hotel News</span>
+              <h3 class="blog-title">
+                Exciting Renovations: Our New Luxury Suites
+              </h3>
+              <p class="blog-excerpt">
+                We're thrilled to announce the completion of our $5M renovation
+                project, adding 12 new luxury suites with panoramic ocean views.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> May 15, 2023</span>
+                <span><i class="far fa-clock"></i> 3 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Tips Post -->
+          <div class="blog-card">
+            <img
+              src="image/Travel Tips.jpeg"
+              alt="Travel Tips"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <span class="blog-category">Travel Tips</span>
+              <h3 class="blog-title">
+                10 Essential Packing Tips for Luxury Travel
+              </h3>
+              <p class="blog-excerpt">
+                Our concierge team shares their expert packing advice to help
+                you travel in style without the stress of overpacking.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> April 28, 2023</span>
+                <span><i class="far fa-clock"></i> 5 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Special Offer Post -->
+          <div class="blog-card">
+            <img
+              src="image/Summer Offer.jpeg"
+              alt="Summer Offer"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <span class="blog-category">Special Offers</span>
+              <h3 class="blog-title">
+                Summer Escape: Book 3 Nights, Get 1 Free
+              </h3>
+              <p class="blog-excerpt">
+                Enjoy our limited-time summer promotion with complimentary
+                nights, spa credits, and exclusive dining experiences.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> April 10, 2023</span>
+                <span><i class="far fa-clock"></i> 2 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Local Guide Post -->
+          <div class="blog-card">
+            <img
+              src="image/Local Guide.jpeg"
+              alt="Local Guide"
+              class="blog-image"
+            />
+            <div class="blog-content">
+              <span class="blog-category">Local Guide</span>
+              <h3 class="blog-title">
+                Hidden Gems: Our Favorite Local Restaurants
+              </h3>
+              <p class="blog-excerpt">
+                Discover the culinary treasures loved by our staff - from cozy
+                bistros to Michelin-starred dining just minutes from the hotel.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> March 22, 2023</span>
+                <span><i class="far fa-clock"></i> 7 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hotel News Post -->
+          <div class="blog-card">
+            <img src="image/Award.jpeg" alt="Award" class="blog-image" />
+            <div class="blog-content">
+              <span class="blog-category">Hotel News</span>
+              <h3 class="blog-title">
+                Luxury Haven Wins "Best Hotel Spa" Award
+              </h3>
+              <p class="blog-excerpt">
+                We're honored to receive the prestigious Global Luxury Award for
+                our world-class spa facilities and treatments.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> March 5, 2023</span>
+                <span><i class="far fa-clock"></i> 4 min read</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Tips Post -->
+          <div class="blog-card">
+            <img src="image/tinerary.jpeg" alt="Itinerary" class="blog-image" />
+            <div class="blog-content">
+              <span class="blog-category">Travel Tips</span>
+              <h3 class="blog-title">
+                Perfect Weekend Itinerary in Paradise City
+              </h3>
+              <p class="blog-excerpt">
+                How to experience the best of our city in just 48 hours -
+                museums, shopping, dining, and relaxation all perfectly planned.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> February 18, 2023</span>
+                <span><i class="far fa-clock"></i> 8 min read</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsletter">
+          <h3>Stay Updated</h3>
+          <p>
+            Subscribe to our newsletter for the latest hotel news, special
+            offers, and travel inspiration delivered to your inbox.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="policies-section" id="Policies & Terms">
+      <div class="container">
+        <h2 class="section-title">Policies & Terms</h2>
+
+        <div class="policy-cards">
+          <!-- Booking Terms and Conditions -->
+          <div class="policy-card">
+            <h3>
+              <i class="fas fa-file-contract"></i> Booking Terms & Conditions
+            </h3>
+            <div class="policy-content">
+              <h4>Reservation Policy</h4>
+              <p>
+                All reservations require a valid credit card to guarantee
+                booking. Full payment may be required at time of booking for
+                special offers.
+              </p>
+
+              <h4>Cancellation Policy</h4>
+              <ul>
+                <li>
+                  Standard Rate: Cancel up to 48 hours prior to arrival for full
+                  refund
+                </li>
+                <li>Non-Refundable Rate: No cancellation permitted</li>
+                <li>
+                  Group Bookings (5+ rooms): 7-day cancellation policy applies
+                </li>
+              </ul>
+
+              <div class="highlight-box">
+                <p>
+                  <strong>Note:</strong> During peak seasons and special events,
+                  different cancellation policies may apply as specified at time
+                  of booking.
+                </p>
+              </div>
+
+              <h4>Payment Options</h4>
+              <p>
+                We accept all major credit cards (Visa, MasterCard, American
+                Express, Discover), bank transfers (for advance bookings), and
+                cash (upon arrival).
+              </p>
+            </div>
+          </div>
+
+          <!-- Privacy Policy -->
+          <div class="policy-card">
+            <h3><i class="fas fa-shield-alt"></i> Privacy Policy</h3>
+            <div class="policy-content">
+              <p>
+                We are committed to protecting your personal information and
+                respecting your privacy.
+              </p>
+
+              <h4>Information Collection</h4>
+              <p>
+                We collect information necessary for your reservation and stay,
+                including name, contact details, payment information, and
+                preferences.
+              </p>
+
+              <h4>Data Usage</h4>
+              <ul>
+                <li>To process reservations and provide services</li>
+                <li>To personalize your experience</li>
+                <li>To communicate special offers (with your consent)</li>
+                <li>To improve our services</li>
+              </ul>
+
+              <h4>Cookies</h4>
+              <p>
+                Our website uses cookies to enhance user experience and analyze
+                website traffic. You can control cookies through your browser
+                settings.
+              </p>
+            </div>
+          </div>
+
+          <!-- Check-in/Check-out Policy -->
+          <div class="policy-card">
+            <h3><i class="fas fa-door-open"></i> Check-in/Check-out Policy</h3>
+            <div class="policy-content">
+              <h4>Standard Times</h4>
+              <ul>
+                <li><strong>Check-in:</strong> 3:00 PM</li>
+                <li><strong>Check-out:</strong> 11:00 AM</li>
+              </ul>
+
+              <h4>Early Check-in/Late Check-out</h4>
+              <p>Subject to availability and may require additional fee:</p>
+              <ul>
+                <li>Early check-in from 12:00 PM: 50% of room rate</li>
+                <li>Late check-out until 2:00 PM: 50% of room rate</li>
+                <li>Late check-out until 6:00 PM: Full day rate</li>
+              </ul>
+
+              <div class="highlight-box">
+                <p>
+                  <strong>Tip:</strong> Contact our front desk in advance to
+                  request early check-in or late check-out options.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Safety Protocols -->
+          <div class="policy-card">
+            <h3>
+              <i class="fas fa-hand-sparkles"></i> Safety & Cleanliness
+              Protocols
+            </h3>
+            <div class="policy-content">
+              <p>
+                Your health and safety remain our top priority. We follow the
+                highest standards of cleanliness and hygiene.
+              </p>
+
+              <h4>Enhanced Cleaning Measures</h4>
+              <ul>
+                <li>Hospital-grade disinfectants used throughout property</li>
+                <li>Increased frequency of cleaning in high-touch areas</li>
+                <li>UV sanitization for room keys and high-touch items</li>
+                <li>Electrostatic sprayers for thorough room disinfection</li>
+              </ul>
+
+              <h4>Guest Safety</h4>
+              <ul>
+                <li>Contactless check-in/check-out available</li>
+                <li>Hand sanitizer stations throughout property</li>
+                <li>Staff trained in COVID-19 safety protocols</li>
+                <li>24/7 medical assistance available if needed</li>
+              </ul>
+
+              <h4>Flexible Booking</h4>
+              <p>
+                We offer flexible cancellation policies for guests affected by
+                COVID-19 travel restrictions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="back-to-top">
+          <a href="#"><i class="fas fa-arrow-up"></i> Back to Top</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>
+                  <a href="tel:+18005551234">+1 (800) 555-1234</a>
+                  (Toll-free)<br />
+                  <a href="tel:+12125551234">+1 (212) 555-1234</a> (Direct)
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:reservations@luxuryhaven.com"
+                    >reservations@luxuryhaven.com</a
+                  ><br />
+                  <a href="mailto:info@luxuryhaven.com">info@luxuryhaven.com</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Address</h4>
+                <p>
+                  123 Luxury Avenue<br />
+                  Paradise City, PC 12345<br />
+                  United States
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Hours</h4>
+                <p>
+                  Front Desk: 24/7<br />
+                  Reservations: Mon-Sun, 8am-10pm EST
+                </p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <h4>Connect With Us</h4>
+              <div class="social-icons">
+                <a
+                  href="https://facebook.com/luxuryhaven"
+                  class="social-icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://instagram.com/luxuryhaven"
+                  class="social-icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://twitter.com/luxuryhaven"
+                  class="social-icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  href="https://linkedin.com/company/luxuryhaven"
+                  class="social-icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="reservation">Reservation Inquiry</option>
+                  <option value="event">Event Planning</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" required></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+     <!-- Live Chat Widget -->
+<div class="customer-contact-widget">
+  <!-- Live Chat Button (visible) -->
+  <button class="live-chat-btn" title="Live Chat" id="chatToggle">
+    <i class="fas fa-comment-dots"></i>
+    <span class="notification-badge">1</span>
+  </button>
+
+  <!-- Contact Options Panel (hidden by default) -->
+  <div class="contact-panel" id="contactPanel">
+    <div class="panel-header">
+      <h3>Contact Us</h3>
+      <button class="close-panel" id="closePanel">&times;</button>
+    </div>
+    
+    <div class="contact-options">
+      <div class="option active" data-tab="chat">
+        <i class="fas fa-comments"></i>
+        <span>Live Chat</span>
+      </div>
+      <div class="option" data-tab="email">
+        <i class="fas fa-envelope"></i>
+        <span>Email Us</span>
+      </div>
+      <div class="option" data-tab="call">
+        <i class="fas fa-phone-alt"></i>
+        <span>Call Back</span>
+      </div>
+    </div>
+    
+    <!-- Tab Content -->
+    <div class="tab-content">
+      <!-- Live Chat Tab -->
+      <div class="tab-pane active" id="chat-tab">
+        <div class="chat-container">
+          <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+              <p>Hello! How can we help you today?</p>
+              <span class="time">10:00 AM</span>
+            </div>
+          </div>
+          <div class="chat-input">
+            <input type="text" placeholder="Type your message..." id="userMessage">
+            <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Email Tab -->
+      <div class="tab-pane" id="email-tab">
+        <form class="email-form">
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Email</button>
+        </form>
+      </div>
+
+      
+      
+      <!-- Call Back Tab -->
+      <div class="tab-pane" id="call-tab">
+        <form class="call-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="preferred-time">Preferred Call Time</label>
+            <select id="preferred-time">
+              <option value="morning">Morning (9AM-12PM)</option>
+              <option value="afternoon">Afternoon (12PM-5PM)</option>
+              <option value="evening">Evening (5PM-8PM)</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">Request Call Back</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer>
+      <p>&copy; 2025 Hyatt Regency
+        Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
